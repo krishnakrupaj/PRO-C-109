@@ -1,0 +1,136 @@
+to install auto gui
+
+E:\python\C109\PRO-C109-Teacher-Boilerplate>pip install pyAutoGUI
+Collecting pyAutoGUI
+  Downloading PyAutoGUI-0.9.53.tar.gz (59 kB)
+     ---------------------------------------- 59.0/59.0 kB 787.0 kB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting pymsgbox
+  Downloading PyMsgBox-1.0.9.tar.gz (18 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting PyTweening>=1.0.1
+  Downloading pytweening-1.0.4.tar.gz (14 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyscreeze>=0.1.21
+  Downloading PyScreeze-0.1.28.tar.gz (25 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting pygetwindow>=0.0.5
+  Downloading PyGetWindow-0.0.9.tar.gz (9.7 kB)
+  Preparing metadata (setup.py) ... done
+Collecting mouseinfo
+  Downloading MouseInfo-0.1.3.tar.gz (10 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyrect
+  Downloading PyRect-0.2.0.tar.gz (17 kB)
+  Preparing metadata (setup.py) ... done
+Collecting pyperclip
+  Downloading pyperclip-1.8.2.tar.gz (20 kB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: pyscreeze, pymsgbox
+  Building wheel for pyscreeze (pyproject.toml) ... done
+  Created wheel for pyscreeze: filename=PyScreeze-0.1.28-py3-none-any.whl size=13027 sha256=46046a1fea499c0b719be7561bba520d28710d86d82b9ee348cf43c68b6fce49
+  Stored in directory: c:\users\krishna krupa\appdata\local\pip\cache\wheels\f7\3c\82\2e45b77cc2efeb7db09eb00bae84c0b3f6d80683c20e98394b
+  Building wheel for pymsgbox (pyproject.toml) ... done
+  Created wheel for pymsgbox: filename=PyMsgBox-1.0.9-py3-none-any.whl size=7416 sha256=7fd3b3560cab59e33ceff4a682881add7f2967bbb3f6066977277a3ffd94ee78
+  Stored in directory: c:\users\krishna krupa\appdata\local\pip\cache\wheels\97\61\22\1a0de2324b204d675c5bfb28b944101eb48dcf1a1fe87bcce7
+Successfully built pyscreeze pymsgbox
+Installing collected packages: PyTweening, pyscreeze, pyrect, pyperclip, pymsgbox, pygetwindow, mouseinfo, pyAutoGUI
+  DEPRECATION: PyTweening is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for PyTweening ... done
+  DEPRECATION: pyrect is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for pyrect ... done
+  DEPRECATION: pyperclip is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for pyperclip ... done
+  DEPRECATION: pygetwindow is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for pygetwindow ... done
+  DEPRECATION: mouseinfo is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for mouseinfo ... done
+  DEPRECATION: pyAutoGUI is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for pyAutoGUI ... done
+Successfully installed PyTweening-1.0.4 mouseinfo-0.1.3 pyAutoGUI-0.9.53 pygetwindow-0.0.9 pymsgbox-1.0.9 pyperclip-1.8.2 pyrect-0.2.0 pyscreeze-0.1.28
+
+[notice] A new release of pip available: 22.3 -> 22.3.1
+[notice] To update, run: C:\Users\Krishna Krupa\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+E
+[notice] A new release of pip available: 22.3 -> 22.3.1
+[notice] To update, run: C:\Users\Krishna Krupa\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+
+E:\python\C109\PRO-C109-Teacher-Boilerplate>python virtual_keyboard.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[ WARN:0@4.956] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (464) `anonymous-namespace'::SourceReaderCB::OnReadSample videoio(MSMF): OnReadSample() is called with error status: -1072875772
+[ WARN:0@5.065] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (476) `anonymous-namespace'::SourceReaderCB::OnReadSample videoio(MSMF): async ReadSample() call is failed with error status: -1072875772
+[ WARN:1@5.077] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (1752) CvCapture_MSMF::grabFrame videoio(MSMF): can't grab frame. Error: -1072875772
+Traceback (most recent call last):
+  File "E:\python\C109\PRO-C109-Teacher-Boilerplate\virtual_keyboard.py", line 79, in <module>
+    results = hands.process(image)
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solutions\hands.py", line 153, in process
+    return super().process(input_data={'image': image})
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solution_base.py", line 354, in process
+    if data.shape[2] != RGB_CHANNELS:
+AttributeError: 'NoneType' object has no attribute 'shape'
+
+E:\python\C109\PRO-C109-Teacher-Boilerplate>python virtual_keyboard.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[ WARN:0@6.097] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (464) `anonymous-namespace'::SourceReaderCB::OnReadSample videoio(MSMF): OnReadSample() is called with error status: -1072875772
+[ WARN:0@6.100] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (476) `anonymous-namespace'::SourceReaderCB::OnReadSample videoio(MSMF): async ReadSample() call is failed with error status: -1072875772
+[ WARN:1@6.108] global D:\a\opencv-python\opencv-python\opencv\modules\videoio\src\cap_msmf.cpp (1752) CvCapture_MSMF::grabFrame videoio(MSMF): can't grab frame. Error: -1072875772
+Traceback (most recent call last):
+  File "E:\python\C109\PRO-C109-Teacher-Boilerplate\virtual_keyboard.py", line 79, in <module>
+    results = hands.process(image)
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solutions\hands.py", line 153, in process
+    return super().process(input_data={'image': image})
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solution_base.py", line 354, in process
+    if data.shape[2] != RGB_CHANNELS:
+AttributeError: 'NoneType' object has no attribute 'shape'
+
+E:\python\C109\PRO-C109-Teacher-Boilerplate>python virtual_keyboard.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Traceback (most recent call last):
+  File "E:\python\C109\PRO-C109-Teacher-Boilerplate\virtual_keyboard.py", line 79, in <module>
+    while True:
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solutions\hands.py", line 153, in process
+    return super().process(input_data={'image': image})
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solution_base.py", line 366, in process
+    self._graph.wait_until_idle()
+KeyboardInterrupt
+^C
+E:\python\C109\PRO-C109-Teacher-Boilerplate>
+E:\python\C109\PRO-C109-Teacher-Boilerplate>python virtual_keyboard.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY forward
+PLAY backward
+PLAY backward
+PLAY backward
+PLAY backward
+PLAY backward
+PLAY backward
+PL
+Traceback (most recent call last):
+  File "E:\python\C109\PRO-C109-Teacher-Boilerplate\virtual_keyboard.py", line 85, in <module>
+    results = hands.process(image)
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solutions\hands.py", line 153, in process
+    return super().process(input_data={'image': image})
+  File "C:\Users\Krishna Krupa\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\mediapipe\python\solution_base.py", line 366, in process
+    self._graph.wait_until_idle()
+KeyboardInterrupt
+^C
+E:\python\C109\PRO-C109-Teacher-Boilerplate>^Xpython virtual_keyboard.py
+'↑python' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\python\C109\PRO-C109-Teacher-Boilerplate>python virtual_keyboard.py
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+PLAY forward
+PLAY forward
